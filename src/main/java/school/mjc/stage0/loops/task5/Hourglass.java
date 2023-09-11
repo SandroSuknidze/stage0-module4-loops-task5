@@ -11,7 +11,7 @@ public class Hourglass {
 
             for (int i = 1; i <= height / 2 - 1; i++) {
                 for (int j = 0; j < i; j++) {
-                    System.out.print(" ");
+                    System.out.print("\u0020");
                 }
                 for (int j = 0; j < height - 2 * i; j++) {
                     System.out.print("8");
@@ -21,14 +21,14 @@ public class Hourglass {
 
             if (height % 2 != 0) {
                 for (int i = 0; i < height / 2; i++) {
-                    System.out.print(" ");
+                    System.out.print("\u0020");
                 }
                 System.out.println("8");
             }
 
             for (int i = height / 2 - 1; i >= 1; i--) {
                 for (int j = 0; j < i; j++) {
-                    System.out.print(" ");
+                    System.out.print("\u0020");
                 }
                 for (int j = 0; j < height - 2 * i; j++) {
                     System.out.print("8");
